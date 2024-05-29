@@ -1,0 +1,61 @@
+List of student grades:
+Alexander (alexander@wisc.edu): 97.0
+Ava (ava@wisc.edu): 80.0
+Henry (henry@wisc.edu): 55.0
+Isabella (isabella@wisc.edu): 68.0
+Lucas (lucas@wisc.edu): 72.0
+Mason (mason@wisc.edu): 59.0
+Noah (noah@wisc.edu): 75.0
+Olivia (olivia@wisc.edu): 88.0
+Samuel (samuel@wisc.edu): 96.0
+Sophia (sophia@wisc.edu): 98.0
+
+
+Visualization of BST:
+        Sophia
+    Samuel
+        Olivia
+Noah
+    Mason
+            Lucas
+        Isabella
+                Henry
+                    Ava
+            Alexander
+
+
+Olivia (olivia@wisc.edu): 88.0
+
+Alexander (alexander@wisc.edu): 97.0
+
+null
+
+Sophia (sophia@wisc.edu): 98.0: PASS
+
+Mason (mason@wisc.edu): 59.0: FAIL
+
+BST after removal:
+        Sophia
+    Samuel
+Olivia
+    Mason
+        Lucas
+            Henry
+                Ava
+
+
+GradebookIterator traversal:
+Ava (ava@wisc.edu): 80.0
+Henry (henry@wisc.edu): 55.0
+Lucas (lucas@wisc.edu): 72.0
+Mason (mason@wisc.edu): 59.0
+Olivia (olivia@wisc.edu): 88.0
+Samuel (samuel@wisc.edu): 96.0
+Sophia (sophia@wisc.edu): 98.0
+
+PassingGradeIterator traversal:
+Ava (ava@wisc.edu): 80.0
+Lucas (lucas@wisc.edu): 72.0
+Olivia (olivia@wisc.edu): 88.0
+Samuel (samuel@wisc.edu): 96.0
+Sophia (sophia@wisc.edu): 98.0
